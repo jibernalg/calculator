@@ -1,0 +1,74 @@
+body{
+    background-color:darkgray;
+}
+.container{
+    margin-top: 15vh;
+    background-color: royalblue;
+    border-radius: 20px;
+    border-style: solid;
+    border-color:lightblue;
+    border-width: 5px;
+    padding: 20px;
+    width: 50vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#output{
+    display: grid;
+    grid-template: repeat(2,1fr) / repeat(9,1fr);
+    width: 50vh;
+    height: 10vh;
+    line-height: 5vh;
+    color:white;
+    background-color:black;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px 2px 0px 2px;
+    text-align: right;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+}
+#lineaSuperior{
+    font-size: 5vh;
+    
+    grid-column: 1/9;
+    grid-row: 1;
+}
+#lineaInferior{
+    font-size: 3vh;
+    
+    grid-column: 1/9;
+    grid-row: 2;
+}
+#simbolo{
+    font-size: 3vh;
+    padding-right: 10px;
+    grid-column: 9/10;
+    grid-row: 2;
+}
+
+.buttons{
+    display: grid;
+    width: 50vh;
+    height: 50vh;
+    grid-template: repeat(5,1fr) / repeat(4,1fr);
+    border-style: solid;
+    border-width: 2px;
+    margin: auto;
+}
+
+#clear{
+    grid-column: 1/3;
+    grid-row: 1;
+}
+#k0{
+    grid-column: 1/3;
+    grid-row: 5;
+    font-size: 4vh;
+}
+button{
+    font-size: 4vh;
+}
+
+    
