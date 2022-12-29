@@ -1,3 +1,5 @@
 # calculator
 Calculator - TheOdinProject Practice
-<img src="cat.png" alt="">
+
+![calc](calc.png)
+
